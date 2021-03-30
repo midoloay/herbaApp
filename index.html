@@ -1304,12 +1304,12 @@
     <script>
 
         document.addEventListener('DOMContentLoaded', function () {
-            new Splide('.splide', {
+          var a =  new Splide('.splide', {
                 direction: 'ttb',
                 heightRatio: 0.4,
                 perPage: 1
             }).mount();
-            new Splide('.splidee', {
+          var b =  new Splide('.splidee', {
                 direction: 'ttb',
                 heightRatio: 0.6,
                 perPage: 1
@@ -1317,7 +1317,7 @@
 
         });
 
-        new Splide('#splide', {
+       var c = new Splide('#splide', {
             type: 'loop',
             perPage: 3,
             autoplay: true,
